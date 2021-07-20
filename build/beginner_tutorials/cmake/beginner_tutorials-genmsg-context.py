@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg/JangoFett.msg"
-services_str = "/home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/add_two_int.srv"
+services_str = "/home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/add_two_int.srv;/home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/gazebo_server.srv"
 pkg_name = "beginner_tutorials"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

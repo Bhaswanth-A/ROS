@@ -57,6 +57,7 @@ add_message_files(
 add_service_files(
   FILES
   add_two_int.srv
+  gazebo_server.srv
 )
 
 ## Generate actions in the 'action' folder

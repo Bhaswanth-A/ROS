@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_eus"
   "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/JangoFett.l"
+  "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/gazebo_server.l"
   "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/add_two_int.l"
   "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l"
 )

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_cpp"
   "/home/bhaswanth/catkin_ws/devel/include/beginner_tutorials/JangoFett.h"
+  "/home/bhaswanth/catkin_ws/devel/include/beginner_tutorials/gazebo_server.h"
   "/home/bhaswanth/catkin_ws/devel/include/beginner_tutorials/add_two_int.h"
 )
 

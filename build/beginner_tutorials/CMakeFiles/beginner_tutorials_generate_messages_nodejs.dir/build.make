@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/bhaswanth/catkin_ws/build
 include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/progress.make
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/JangoFett.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/gazebo_server.js
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/add_two_int.js
 
 
@@ -62,13 +63,19 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from beginner_tutorials/JangoFett.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/src/beginner_tutorials/msg/JangoFett.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
 
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/gazebo_server.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/gazebo_server.js: /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/gazebo_server.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from beginner_tutorials/gazebo_server.srv"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/gazebo_server.srv -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv
+
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/add_two_int.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/add_two_int.js: /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/add_two_int.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from beginner_tutorials/add_two_int.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from beginner_tutorials/add_two_int.srv"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/add_two_int.srv -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv
 
 beginner_tutorials_generate_messages_nodejs: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs
 beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/JangoFett.js
+beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/gazebo_server.js
 beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/add_two_int.js
 beginner_tutorials_generate_messages_nodejs: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/build.make
 
