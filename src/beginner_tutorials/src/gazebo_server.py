@@ -4,21 +4,23 @@ import rospy
 from sensor_msgs.msg import LaserScan
 from beginner_tutorials.srv import gazebo_server, gazebo_serverResponse
 
-rospy.init_node("Subscriber", anonymous=True)
+rospy.init_node('My_Node', anonymous=True)
+
 ls_obj = LaserScan()
 response = gazebo_serverResponse()
 
-def callback(message):
+def callback(val):
     global ls_obj
-    ls_obj = message
-
-def func(request):
-    global ls_obj
-    response.distance = ls_obj.ranges[request.direction]
-    return response
+    ls_obj = val
     
 
-rospy.Subscriber('/scan', LaserScan, callback)
+def func_serv(request):
+    global ls_obj
+    response.distance = ls_obj.ranges[request.direction]
+    return response.distance
 
-srv = rospy.Service('my_service', gazebo_server, func)
+
+sub = rospy.Subscriber('/scan', LaserScan, callback)
+
+serv = rospy.Service('my_service', gazebo_server, func_serv)
 rospy.spin()

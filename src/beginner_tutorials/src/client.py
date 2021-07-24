@@ -9,5 +9,5 @@ y = 5
 rospy.wait_for_service('add_two_int')
 
 add_two_ints = rospy.ServiceProxy('add_two_int',add_two_int)
-response = add_two_ints(x,y)
+response = add_two_intRequest(x,y)
 print(response.sum)
