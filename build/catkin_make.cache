@@ -1,2 +1,2 @@
-beginner_tutorials
--DCATKIN_DEVEL_PREFIX=/home/bhaswanth/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/bhaswanth/catkin_ws/install -DCATKIN_WHITELIST_PACKAGES=beginner_tutorials -G Unix Makefiles
+beginner_tutorials:custom_service_assignment:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations
+-DCATKIN_DEVEL_PREFIX=/home/bhaswanth/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/bhaswanth/catkin_ws/install -G Unix Makefiles

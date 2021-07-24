@@ -1,13 +1,15 @@
 #! /usr/bin/python2
 
 import rospy
-from beginner_tutorials.srv import *
+from beginner_tutorials.srv import add_two_int, add_two_intRequest
 
-x = 4
-y = 5
+
+req = add_two_intRequest()
+req.a = 4
+req.b = 5
 
 rospy.wait_for_service('add_two_int')
 
 add_two_ints = rospy.ServiceProxy('add_two_int',add_two_int)
-response = add_two_intRequest(x,y)
+response = add_two_ints(req)
 print(response.sum)
