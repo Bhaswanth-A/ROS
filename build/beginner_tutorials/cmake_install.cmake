@@ -49,6 +49,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/action" TYPE FILE FILES "/home/bhaswanth/catkin_ws/src/beginner_tutorials/action/my_act.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/msg" TYPE FILE FILES
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actAction.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionGoal.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionResult.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionFeedback.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actResult.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/cmake" TYPE FILE FILES "/home/bhaswanth/catkin_ws/build/beginner_tutorials/catkin_generated/installspace/beginner_tutorials-msg-paths.cmake")
 endif()
 
