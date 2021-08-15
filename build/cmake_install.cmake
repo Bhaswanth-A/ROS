@@ -131,7 +131,16 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/bhaswanth/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/common_tutorials/common_tutorials/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/custom_service_assignment/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/common_tutorials/nodelet_tutorial_math/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/common_tutorials/pluginlib_tutorials/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/common_tutorials/actionlib_tutorials/cmake_install.cmake")
   include("/home/bhaswanth/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/common_tutorials/turtle_actionlib/cmake_install.cmake")
 
 endif()
 
