@@ -10,10 +10,12 @@
     <param name="turtle" type="string" value="turtle2" />
   </node>
 
-  <!-- <node pkg="learning_tf2" type="tf2_listener.py" name="listener" output="screen" /> -->
+  <node pkg="learning_tf2" type="tf2_listener.py" name="listener" output="screen" />
 
-  <node pkg="learning_tf2" type="listener_past.py" name="listener" output="screen" />
-
+  <!-- Uncomment if you want to add frames -->
   <!-- <node pkg="learning_tf2" type="add_frame_1.py" name="broadcaster_frames" output="screen" /> -->
+
+  <!-- Uncomment for time travel example -->
+  <!-- <node pkg="learning_tf2" type="listener_past.py" name="listener" output="screen" /> -->
 
 </launch>

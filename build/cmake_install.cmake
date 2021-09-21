@@ -149,6 +149,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/bhaswanth/catkin_ws/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
   include("/home/bhaswanth/catkin_ws/build/learning_tf2/cmake_install.cmake")
   include("/home/bhaswanth/catkin_ws/build/common_tutorials/turtle_actionlib/cmake_install.cmake")
+  include("/home/bhaswanth/catkin_ws/build/urdf_tutorial/cmake_install.cmake")
   include("/home/bhaswanth/catkin_ws/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
 
 endif()

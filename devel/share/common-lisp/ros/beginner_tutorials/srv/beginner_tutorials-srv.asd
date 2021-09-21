@@ -8,4 +8,6 @@
     (:file "_package_add_two_int" :depends-on ("_package"))
     (:file "gazebo_server" :depends-on ("_package_gazebo_server"))
     (:file "_package_gazebo_server" :depends-on ("_package"))
+    (:file "get_pose" :depends-on ("_package_get_pose"))
+    (:file "_package_get_pose" :depends-on ("_package"))
   ))
