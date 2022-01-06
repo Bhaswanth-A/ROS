@@ -1,0 +1,8 @@
+prefix=/home/bhaswanth/catkin_ws/devel
+
+Name: level_up
+Description: Description of level_up
+Version: 0.0.0
+Cflags: -I/home/bhaswanth/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs
