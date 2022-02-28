@@ -2,7 +2,7 @@
 
 message(STATUS "turtlebot3_msgs: 3 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iturtlebot3_msgs:/home/bhaswanth/catkin_ws/src/turtlebot3_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iturtlebot3_msgs:/home/bhaswanth/catkin_ws/src/turtlebot3_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -41,7 +41,7 @@ add_custom_target(_turtlebot3_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(turtlebot3_msgs
   "/home/bhaswanth/catkin_ws/src/turtlebot3_msgs/msg/SensorState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/turtlebot3_msgs
 )
 _generate_msg_cpp(turtlebot3_msgs
@@ -90,7 +90,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS turtlebot3_msgs_generate_messages_c
 _generate_msg_eus(turtlebot3_msgs
   "/home/bhaswanth/catkin_ws/src/turtlebot3_msgs/msg/SensorState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/turtlebot3_msgs
 )
 _generate_msg_eus(turtlebot3_msgs
@@ -139,7 +139,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS turtlebot3_msgs_generate_messages_e
 _generate_msg_lisp(turtlebot3_msgs
   "/home/bhaswanth/catkin_ws/src/turtlebot3_msgs/msg/SensorState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/turtlebot3_msgs
 )
 _generate_msg_lisp(turtlebot3_msgs
@@ -188,7 +188,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS turtlebot3_msgs_generate_messages_l
 _generate_msg_nodejs(turtlebot3_msgs
   "/home/bhaswanth/catkin_ws/src/turtlebot3_msgs/msg/SensorState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/turtlebot3_msgs
 )
 _generate_msg_nodejs(turtlebot3_msgs
@@ -237,7 +237,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS turtlebot3_msgs_generate_messages_n
 _generate_msg_py(turtlebot3_msgs
   "/home/bhaswanth/catkin_ws/src/turtlebot3_msgs/msg/SensorState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/turtlebot3_msgs
 )
 _generate_msg_py(turtlebot3_msgs
@@ -328,7 +328,7 @@ if(TARGET std_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/turtlebot3_msgs)
-  install(CODE "execute_process(COMMAND \"/usr/bin/python2\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/turtlebot3_msgs\")")
+  install(CODE "execute_process(COMMAND \"/usr/bin/python3\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/turtlebot3_msgs\")")
   # install generated code
   install(
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/turtlebot3_msgs

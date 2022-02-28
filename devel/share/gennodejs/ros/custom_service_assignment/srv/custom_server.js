@@ -133,7 +133,7 @@ class custom_serverResponse {
 
   static getMessageSize(object) {
     let length = 0;
-    length += object.message.length;
+    length += _getByteLength(object.message);
     return length + 5;
   }
 

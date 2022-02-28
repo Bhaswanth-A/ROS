@@ -59,7 +59,7 @@ class JangoFett {
 
   static getMessageSize(object) {
     let length = 0;
-    length += object.shape.length;
+    length += _getByteLength(object.shape);
     return length + 8;
   }
 

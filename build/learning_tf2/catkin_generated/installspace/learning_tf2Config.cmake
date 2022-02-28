@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/bhaswanth/catkin_ws/install/lib;/home/bhaswanth/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/bhaswanth/catkin_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(learning_tf2_LIBRARIES ${learning_tf2_LIBRARIES})
 
   _list_append_unique(learning_tf2_LIBRARY_DIRS ${${learning_tf2_dep}_LIBRARY_DIRS})
-  list(APPEND learning_tf2_EXPORTED_TARGETS ${${learning_tf2_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(learning_tf2_EXPORTED_TARGETS ${${learning_tf2_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

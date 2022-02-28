@@ -1,0 +1,8 @@
+prefix=/home/bhaswanth/catkin_ws/devel
+
+Name: session_one
+Description: Description of session_one
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/bhaswanth/catkin_ws/devel/lib/python3/dist-packages/custom_service_assignment/srv/__init__.py"
+  "/home/bhaswanth/catkin_ws/devel/lib/python3/dist-packages/custom_service_assignment/srv/_custom_server.py"
   "CMakeFiles/custom_service_assignment_generate_messages_py"
-  "/home/bhaswanth/catkin_ws/devel/lib/python2.7/dist-packages/custom_service_assignment/srv/_custom_server.py"
-  "/home/bhaswanth/catkin_ws/devel/lib/python2.7/dist-packages/custom_service_assignment/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

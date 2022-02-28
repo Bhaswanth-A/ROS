@@ -93,16 +93,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::beginner_tutorials::JangoFett_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::beginner_tutorials::JangoFett_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::beginner_tutorials::JangoFett_<ContainerAllocator> >
   : TrueType
   { };
@@ -110,6 +100,16 @@ struct IsMessage< ::beginner_tutorials::JangoFett_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::beginner_tutorials::JangoFett_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::beginner_tutorials::JangoFett_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::beginner_tutorials::JangoFett_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>
