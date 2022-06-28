@@ -1,5 +1,12 @@
 file(REMOVE_RECURSE
   "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/JangoFett.js"
+  "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js"
+  "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionFeedback.js"
+  "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionGoal.js"
+  "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionResult.js"
+  "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterFeedback.js"
+  "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterGoal.js"
+  "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterResult.js"
   "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js"
   "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js"
   "/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionGoal.js"

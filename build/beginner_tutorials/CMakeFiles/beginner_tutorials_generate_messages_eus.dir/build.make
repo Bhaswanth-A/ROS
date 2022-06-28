@@ -61,6 +61,13 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bh
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actGoal.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actResult.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actFeedback.l
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionGoal.l
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionResult.l
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionFeedback.l
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterGoal.l
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterResult.l
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterFeedback.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/add_two_int.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/gazebo_server.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l
@@ -73,41 +80,41 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bh
 
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actAction.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actResult.msg
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionResult.msg
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionFeedback.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionGoal.msg
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from beginner_tutorials/my_actAction.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actAction.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
 
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionGoal.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionGoal.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionGoal.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionGoal.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from beginner_tutorials/my_actActionGoal.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionGoal.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
 
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionResult.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionResult.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionResult.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actResult.msg
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionResult.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actResult.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from beginner_tutorials/my_actActionResult.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionResult.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
 
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionFeedback.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from beginner_tutorials/my_actActionFeedback.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionFeedback.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
 
@@ -126,18 +133,73 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/bh
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from beginner_tutorials/my_actFeedback.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
 
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterAction.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionResult.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterResult.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp code from beginner_tutorials/counterAction.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterAction.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionGoal.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionGoal.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from beginner_tutorials/counterActionGoal.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionGoal.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionResult.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionResult.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionResult.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterResult.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp code from beginner_tutorials/counterActionResult.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionResult.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionFeedback.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionFeedback.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp code from beginner_tutorials/counterActionFeedback.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionFeedback.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterGoal.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating EusLisp code from beginner_tutorials/counterGoal.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterGoal.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterResult.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating EusLisp code from beginner_tutorials/counterResult.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterResult.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterFeedback.l: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating EusLisp code from beginner_tutorials/counterFeedback.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterFeedback.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
+
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/add_two_int.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/add_two_int.l: /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/add_two_int.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp code from beginner_tutorials/add_two_int.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating EusLisp code from beginner_tutorials/add_two_int.srv"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/add_two_int.srv -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv
 
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/gazebo_server.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/gazebo_server.l: /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/gazebo_server.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from beginner_tutorials/gazebo_server.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating EusLisp code from beginner_tutorials/gazebo_server.srv"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/gazebo_server.srv -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv
 
 /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp manifest code for beginner_tutorials"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating EusLisp manifest code for beginner_tutorials"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials beginner_tutorials std_msgs actionlib_msgs actionlib
 
 beginner_tutorials_generate_messages_eus: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus
@@ -149,6 +211,13 @@ beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/
 beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actGoal.l
 beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actResult.l
 beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actFeedback.l
+beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l
+beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionGoal.l
+beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionResult.l
+beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionFeedback.l
+beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterGoal.l
+beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterResult.l
+beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterFeedback.l
 beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/add_two_int.l
 beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/gazebo_server.l
 beginner_tutorials_generate_messages_eus: /home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l

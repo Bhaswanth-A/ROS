@@ -1,5 +1,12 @@
 file(REMOVE_RECURSE
   "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/JangoFett.lisp"
+  "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/counterAction.lisp"
+  "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/counterActionFeedback.lisp"
+  "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/counterActionGoal.lisp"
+  "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/counterActionResult.lisp"
+  "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/counterFeedback.lisp"
+  "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/counterGoal.lisp"
+  "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/counterResult.lisp"
   "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/my_actAction.lisp"
   "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/my_actActionFeedback.lisp"
   "/home/bhaswanth/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/my_actActionGoal.lisp"

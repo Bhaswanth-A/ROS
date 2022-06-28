@@ -1,6 +1,13 @@
 file(REMOVE_RECURSE
   "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l"
   "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/JangoFett.l"
+  "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterAction.l"
+  "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionFeedback.l"
+  "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionGoal.l"
+  "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterActionResult.l"
+  "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterFeedback.l"
+  "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterGoal.l"
+  "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/counterResult.l"
   "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actAction.l"
   "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionFeedback.l"
   "/home/bhaswanth/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_actActionGoal.l"

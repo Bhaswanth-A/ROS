@@ -49,7 +49,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/action" TYPE FILE FILES "/home/bhaswanth/catkin_ws/src/beginner_tutorials/action/my_act.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/action" TYPE FILE FILES
+    "/home/bhaswanth/catkin_ws/src/beginner_tutorials/action/my_act.action"
+    "/home/bhaswanth/catkin_ws/src/beginner_tutorials/action/counter.action"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -61,6 +64,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg"
     "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actResult.msg"
     "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/msg" TYPE FILE FILES
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterAction.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionGoal.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionResult.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionFeedback.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterGoal.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterResult.msg"
+    "/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterFeedback.msg"
     )
 endif()
 

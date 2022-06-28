@@ -1,4 +1,4 @@
-#! /usr/bin/python2
+#! /usr/bin/python3
 
 import rospy
 from beginner_tutorials.srv import add_two_int, add_two_intRequest

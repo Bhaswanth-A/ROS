@@ -1,0 +1,8 @@
+# Goal
+int32 num_counts
+---
+# Result
+string result_message
+---
+# Feedback
+int32 counts_elapsed

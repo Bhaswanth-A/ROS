@@ -61,6 +61,13 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actGoal.js
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actResult.js
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actFeedback.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionGoal.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionResult.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionFeedback.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterGoal.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterResult.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterFeedback.js
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/add_two_int.js
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/gazebo_server.js
 
@@ -72,41 +79,41 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home
 
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actAction.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actResult.msg
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionResult.msg
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionFeedback.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionGoal.msg
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from beginner_tutorials/my_actAction.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actAction.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
 
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionGoal.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionGoal.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionGoal.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionGoal.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from beginner_tutorials/my_actActionGoal.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionGoal.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
 
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionResult.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionResult.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionResult.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actResult.msg
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionResult.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actResult.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from beginner_tutorials/my_actActionResult.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionResult.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
 
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionFeedback.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from beginner_tutorials/my_actActionFeedback.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actActionFeedback.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
 
@@ -125,14 +132,69 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from beginner_tutorials/my_actFeedback.msg"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/my_actFeedback.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
 
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterAction.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionResult.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterResult.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from beginner_tutorials/counterAction.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterAction.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionGoal.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionGoal.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterGoal.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from beginner_tutorials/counterActionGoal.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionGoal.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionResult.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionResult.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionResult.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterResult.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from beginner_tutorials/counterActionResult.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionResult.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionFeedback.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionFeedback.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterFeedback.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from beginner_tutorials/counterActionFeedback.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterActionFeedback.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterGoal.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from beginner_tutorials/counterGoal.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterGoal.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterResult.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from beginner_tutorials/counterResult.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterResult.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
+
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterFeedback.js: /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from beginner_tutorials/counterFeedback.msg"
+	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg/counterFeedback.msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
+
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/add_two_int.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/add_two_int.js: /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/add_two_int.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from beginner_tutorials/add_two_int.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from beginner_tutorials/add_two_int.srv"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/add_two_int.srv -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv
 
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/gazebo_server.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/gazebo_server.js: /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/gazebo_server.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from beginner_tutorials/gazebo_server.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from beginner_tutorials/gazebo_server.srv"
 	cd /home/bhaswanth/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bhaswanth/catkin_ws/src/beginner_tutorials/srv/gazebo_server.srv -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/src/beginner_tutorials/msg -Ibeginner_tutorials:/home/bhaswanth/catkin_ws/devel/share/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Iactionlib:/opt/ros/noetic/share/actionlib/cmake/../msg -p beginner_tutorials -o /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv
 
 beginner_tutorials_generate_messages_nodejs: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs
@@ -144,6 +206,13 @@ beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/sha
 beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actGoal.js
 beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actResult.js
 beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_actFeedback.js
+beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterAction.js
+beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionGoal.js
+beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionResult.js
+beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterActionFeedback.js
+beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterGoal.js
+beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterResult.js
+beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/counterFeedback.js
 beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/add_two_int.js
 beginner_tutorials_generate_messages_nodejs: /home/bhaswanth/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/gazebo_server.js
 beginner_tutorials_generate_messages_nodejs: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/build.make
