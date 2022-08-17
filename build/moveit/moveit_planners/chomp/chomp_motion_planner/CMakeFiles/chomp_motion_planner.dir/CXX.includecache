@@ -1280,10 +1280,6 @@ eigen3/Eigen/Core
 random
 -
 
-/home/bhaswanth/catkin_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/src/chomp_parameters.cpp
-chomp_motion_planner/chomp_parameters.h
--
-
 /home/bhaswanth/catkin_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/src/chomp_planner.cpp
 ros/ros.h
 -

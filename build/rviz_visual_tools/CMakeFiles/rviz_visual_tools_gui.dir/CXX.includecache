@@ -1053,9 +1053,9 @@ tf2_ros/buffer.h
 -
 geometry_msgs/Pose.h
 -
-OGRE/OgreVector3.h
+rviz/ogre_helpers/ogre_vector.h
 -
-OGRE/OgreQuaternion.h
+OgreQuaternion.h
 -
 boost/thread/mutex.hpp
 -
@@ -1069,6 +1069,18 @@ QCursor
 -
 QString
 -
+
+/opt/ros/noetic/include/rviz/ogre_helpers/ogre_vector.h
+OgrePrerequisites.h
+-
+rviz/ogre_helpers/version_check.h
+-
+OgreVector3.h
+-
+OgreVector.h
+-
+
+/opt/ros/noetic/include/rviz/ogre_helpers/version_check.h
 
 /opt/ros/noetic/include/rviz/panel.h
 QWidget
@@ -1127,7 +1139,7 @@ QCursor
 -
 utility
 -
-OGRE/OgrePrerequisites.h
+OgrePrerequisites.h
 -
 rviz/properties/property.h
 -

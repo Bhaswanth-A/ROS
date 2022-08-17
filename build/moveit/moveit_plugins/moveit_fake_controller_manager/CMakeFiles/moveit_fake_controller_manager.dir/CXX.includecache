@@ -270,18 +270,6 @@ ros/console.h
 map
 -
 
-/home/bhaswanth/catkin_ws/src/moveit/moveit_plugins/moveit_fake_controller_manager/src/moveit_fake_controllers.cpp
-moveit_fake_controllers.h
-/home/bhaswanth/catkin_ws/src/moveit/moveit_plugins/moveit_fake_controller_manager/src/moveit_fake_controllers.h
-ros/param.h
--
-sensor_msgs/JointState.h
--
-boost/thread.hpp
--
-limits
--
-
 /home/bhaswanth/catkin_ws/src/moveit/moveit_plugins/moveit_fake_controller_manager/src/moveit_fake_controllers.h
 moveit/macros/class_forward.h
 -

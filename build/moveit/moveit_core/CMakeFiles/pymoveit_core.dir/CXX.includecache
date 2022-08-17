@@ -910,16 +910,6 @@ boost/noncopyable.hpp
 moveit/macros/class_forward.h
 -
 
-/home/bhaswanth/catkin_ws/src/moveit/moveit_core/transforms/src/pytransforms.cpp
-pybind11/pybind11.h
--
-pybind11/stl.h
--
-moveit/python/pybind_rosmsg_typecasters.h
--
-moveit/transforms/transforms.h
--
-
 /home/bhaswanth/catkin_ws/src/srdfdom/include/srdfdom/model.h
 map
 -

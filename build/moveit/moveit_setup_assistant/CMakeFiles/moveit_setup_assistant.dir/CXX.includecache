@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/bhaswanth/catkin_ws/build/moveit/moveit_setup_assistant/moveit_setup_assistant_autogen/mocs_compilation.cpp
-
 /home/bhaswanth/catkin_ws/devel/include/moveit/moveit_kinematics_base_export.h
 
 /home/bhaswanth/catkin_ws/devel/include/moveit/moveit_planning_scene_export.h

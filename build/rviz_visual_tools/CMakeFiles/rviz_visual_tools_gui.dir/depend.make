@@ -284,6 +284,8 @@ rviz_visual_tools/CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o: /opt/
 rviz_visual_tools/CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o: /opt/ros/noetic/include/rviz/display_context.h
 rviz_visual_tools/CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o: /opt/ros/noetic/include/rviz/frame_manager.h
 rviz_visual_tools/CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o: /opt/ros/noetic/include/rviz/load_resource.h
+rviz_visual_tools/CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o: /opt/ros/noetic/include/rviz/ogre_helpers/ogre_vector.h
+rviz_visual_tools/CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o: /opt/ros/noetic/include/rviz/ogre_helpers/version_check.h
 rviz_visual_tools/CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o: /opt/ros/noetic/include/rviz/properties/bool_property.h
 rviz_visual_tools/CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o: /opt/ros/noetic/include/rviz/properties/property.h
 rviz_visual_tools/CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o: /opt/ros/noetic/include/rviz/properties/string_property.h
