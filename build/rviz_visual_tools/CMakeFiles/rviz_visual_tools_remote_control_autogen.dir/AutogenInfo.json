@@ -11,6 +11,8 @@
 	"MOC_COMPILATION_FILE" : "/home/bhaswanth/catkin_ws/build/rviz_visual_tools/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
+		"BOOST_ALL_NO_LIB",
+		"BOOST_FILESYSTEM_DYN_LINK",
 		"QT_NO_KEYWORDS",
 		"ROSCONSOLE_BACKEND_LOG4CXX",
 		"ROS_BUILD_SHARED_LIBS=1",
@@ -29,6 +31,7 @@
 		"/home/bhaswanth/catkin_ws/build/rviz_visual_tools",
 		"/home/bhaswanth/catkin_ws/src/rviz_visual_tools",
 		"/home/bhaswanth/catkin_ws/src/rviz_visual_tools/include",
+		"/home/bhaswanth/catkin_ws/src/image_common/image_transport/include",
 		"/opt/ros/noetic/include",
 		"/opt/ros/noetic/include/xmlrpcpp",
 		"/usr/include/eigen3",

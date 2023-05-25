@@ -13,6 +13,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_ALL_NO_LIB"
+  "BOOST_FILESYSTEM_DYN_LINK"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
   "QT_NO_DEBUG"
@@ -30,6 +32,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/bhaswanth/catkin_ws/src/rviz_visual_tools"
   "rviz_visual_tools/rviz_visual_tools_gui_autogen/include"
   "/home/bhaswanth/catkin_ws/src/rviz_visual_tools/include"
+  "/home/bhaswanth/catkin_ws/src/image_common/image_transport/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
@@ -50,6 +53,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/bhaswanth/catkin_ws/build/image_common/image_transport/CMakeFiles/image_transport.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

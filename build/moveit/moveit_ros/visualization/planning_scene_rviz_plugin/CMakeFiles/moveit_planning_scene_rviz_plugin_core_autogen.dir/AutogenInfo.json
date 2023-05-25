@@ -64,6 +64,7 @@
 		"/home/bhaswanth/catkin_ws/src/moveit/moveit_ros/perception/semantic_world/include",
 		"/home/bhaswanth/catkin_ws/src/moveit/moveit_ros/perception/mesh_filter/include",
 		"/home/bhaswanth/catkin_ws/src/moveit/moveit_ros/perception/depth_image_octomap_updater/include",
+		"/home/bhaswanth/catkin_ws/src/image_common/image_transport/include",
 		"/home/bhaswanth/catkin_ws/src/moveit/moveit_core/background_processing/include",
 		"/home/bhaswanth/catkin_ws/src/moveit/moveit_core/exceptions/include",
 		"/home/bhaswanth/catkin_ws/src/moveit/moveit_core/backtrace/include",

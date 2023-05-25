@@ -66,8 +66,8 @@ moveit_resources/panda_description/CMakeFiles/moveit_resources_panda_description
 	cd /home/bhaswanth/catkin_ws/build/moveit_resources/panda_description && /usr/bin/cmake -E make_directory /home/bhaswanth/catkin_ws/devel/share/moveit_resources_panda_description/robots
 
 /home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/panda.urdf: /home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/panda_arm_hand.urdf.xacro
-/home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/panda.urdf: /home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/panda_arm.xacro
 /home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/panda.urdf: /home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/hand.xacro
+/home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/panda.urdf: /home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/panda_arm.xacro
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bhaswanth/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "xacro: generating /home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/panda.urdf from urdf/panda_arm_hand.urdf.xacro"
 	cd /home/bhaswanth/catkin_ws/src/moveit_resources/panda_description && /home/bhaswanth/catkin_ws/build/catkin_generated/env_cached.sh xacro -o /home/bhaswanth/catkin_ws/src/moveit_resources/panda_description/urdf/panda.urdf urdf/panda_arm_hand.urdf.xacro
 

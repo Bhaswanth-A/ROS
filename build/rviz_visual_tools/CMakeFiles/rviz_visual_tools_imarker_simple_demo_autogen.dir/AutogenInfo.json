@@ -13,6 +13,7 @@
 	[
 		"BOOST_ALL_NO_LIB",
 		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_FILESYSTEM_DYN_LINK",
 		"BOOST_SYSTEM_DYN_LINK",
 		"BOOST_THREAD_DYN_LINK",
 		"QT_NO_KEYWORDS",
@@ -32,6 +33,7 @@
 		"/home/bhaswanth/catkin_ws/build/rviz_visual_tools",
 		"/home/bhaswanth/catkin_ws/src/rviz_visual_tools",
 		"/home/bhaswanth/catkin_ws/src/rviz_visual_tools/include",
+		"/home/bhaswanth/catkin_ws/src/image_common/image_transport/include",
 		"/opt/ros/noetic/include",
 		"/opt/ros/noetic/include/xmlrpcpp",
 		"/usr/include/eigen3",

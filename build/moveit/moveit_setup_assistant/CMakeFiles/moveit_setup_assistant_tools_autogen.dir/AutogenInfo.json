@@ -121,6 +121,7 @@
 		"/home/bhaswanth/catkin_ws/src/moveit/moveit_ros/manipulation/move_group_pick_place_capability/include",
 		"/home/bhaswanth/catkin_ws/src/moveit/moveit_ros/move_group/include",
 		"/home/bhaswanth/catkin_ws/src/moveit/moveit_ros/robot_interaction/include",
+		"/home/bhaswanth/catkin_ws/src/image_common/image_transport/include",
 		"/opt/ros/noetic/include",
 		"/opt/ros/noetic/include/xmlrpcpp",
 		"/usr/include/eigen3",
